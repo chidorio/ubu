@@ -1,0 +1,135 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 2px;
+    background-color: #333;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.cell {
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #ccc;
+}
+
+body {
+    background-color: #08161e;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.my_photo{
+    background: url(../image/cantmoveit.jpg) no-repeat center center;
+    background-size: 100%;
+    width: 187px;
+    height: 100px;
+}
+
+.nav_logo{
+    background: url(../image/LEGO_logo.png) no-repeat center center;
+    background-size: 100%;
+    width: 74px;
+    height: 82px;
+}
+
+.nav_bar {
+    font-size: 30px;
+    font-weight: bold;
+}
+.container {
+    margin-top: 30px;
+}
+.row {
+    text-align: center;
+    align-items: center;
+}
+
+.col-1{
+    width: 20px;
+    margin-left: 80%;
+}
+
+.col-8 {
+
+}
+.col-4 {
+
+}
+.col-3.nav_logo {
+
+}
+.col-9 {
+
+}
+
+.col-12 {
+    align-items: center;
+}
+
+.form__reg{
+    margin-top: 10px;
+}
+
+.form{
+    width: 100%;
+    display: block;
+}
+
+
+.nav_text {
+    width: 100%;
+    display: flex;
+
+    justify-content: right;
+}
+.img_size {
+
+}
+.title_photo {
+    text-align: left;
+}
+
+.button_js {
+    text-align: center;
+}
+
+#myButton {
+    border: none;
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    background-color: #FF69B4;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn_red{
+    margin-top: 10px;
+    border: none;
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    background-color: #ff0606;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+#demo img{
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.index{
+    text-align: center;
+}
